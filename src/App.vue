@@ -14,5 +14,10 @@
 </script>
 
 <style>
+	@import url("common/styles/reset.css");
 	
+	.hello {
+		height: 100px;
+		background: #379392;
+	}
 </style>
