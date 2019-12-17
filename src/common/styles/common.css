@@ -1,0 +1,12 @@
+
+.el-input__inner {
+	height: 30px !important;
+}
+
+.el-form-item {
+	margin-bottom: 0px;
+}
+
+.padding {
+	height: 3px 0;
+}

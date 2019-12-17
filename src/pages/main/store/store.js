@@ -1,5 +1,5 @@
 
-const loginStore = {
+const mainStore = {
 	actions: {
 		changeTest (state, data) {
 			state.test = data
@@ -15,4 +15,4 @@ const loginStore = {
 	}
 }
 
-export default loginStore
+export default mainStore

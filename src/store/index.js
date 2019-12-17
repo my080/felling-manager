@@ -5,6 +5,10 @@ import * as mutations from './mutations'
 import * as getters from './getters'
 import state from './state'
 
+import homeStore from '../pages/home/store/store.js'
+import loginStore from '../pages/login/store/store.js'
+import mainStore from '../pages/main/store/store.js'
+
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
@@ -12,7 +16,11 @@ const store = new Vuex.Store({
 	getters,
 	actions,
 	mutations,
-	modules: {}
+	modules: {
+		home: homeStore,
+		login: loginStore,
+		main: mainStore
+	}
 })
 
 export default store

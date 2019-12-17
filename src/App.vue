@@ -1,8 +1,6 @@
 <template>
 	<div id="app">
-		<!-- <img alt="Vue logo" src="./assets/logo.png">
-		<HelloWorld msg="Welcome to Your Vue.js App" /> -->
-		<div class="hello"></div>
+		<router-view></router-view>
 	</div>
 </template>
 
@@ -15,9 +13,9 @@
 
 <style>
 	@import url("common/styles/reset.css");
+	@import url("common/styles/common.css");
 	
-	.hello {
-		height: 100px;
-		background: #379392;
+	#app {
+		height: 100%;
 	}
 </style>
